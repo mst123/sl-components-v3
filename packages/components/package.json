@@ -1,0 +1,17 @@
+{
+  "name": "@madao-ui/components",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.ts",
+  "peerDependencies": {
+    "element-plus": "^2.3.4",
+    "vue": "^3.2.47",
+    "sass": "^1.56.1"
+  },
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC"
+}

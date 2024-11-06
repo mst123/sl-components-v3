@@ -1,0 +1,14 @@
+{
+  "extends": "./tsconfig.base.json",
+  "include": [
+    "packages/web/*/src/**/*",
+    "packages/web/*/package.json",
+    "packages/**/__tests__/**/*",
+    "packages/**/tests/**/*"
+  ],
+  "compilerOptions": {
+    "composite": true,
+    "lib": [],
+    "types": ["node", "jsdom"]
+  }
+}
